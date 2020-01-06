@@ -24,9 +24,9 @@ php artisan migrate
 ```
 
 ## twig里面字符串拼接
-```
-{{ "Hello " ~ name ~ "!" }}
-{{ "foo #{bar} baz" }}
-{{ "foo #{1 + 2} baz" }}
+```twig
+ "Hello " ~ name ~ "!" 
+ "foo #{bar} baz" 
+ "foo #{1 + 2} baz" 
 ```
 
