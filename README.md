@@ -10,3 +10,4 @@ Bootstrap：Nested tabs are not supported.
 //arr=['aaa', 'bbb', ...]
 <input v-for="value in arr" v-model="value" />  // not work
 <input v-for="(value, index) in arr" v-model="arr[index]" />  // it works
+```
