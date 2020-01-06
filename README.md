@@ -3,13 +3,17 @@
 ## Tabs
 Bootstrap：Nested tabs are not supported.
 
-借用vuejs的`v-for`和`v-if`可以实现多层嵌套的tabs，不能用`v-show`替代`v-if`。
+用vuejs的`v-for`和`v-if`可以嵌套多层的tabs，`v-if`不能用`v-show`替代。
 
 ## v-for with array
 ```html
 //arr=['aaa', 'bbb', ...]
 <input v-for="value in arr" v-model="value" />  // not work
 <input v-for="(value, index) in arr" v-model="arr[index]" />  // it works
+```
+## Reset VueJS data properties to initial values
+```js
+Object.assign(this.$data, this.$options.data.apply(this));
 ```
 
 ## laravel migrate 指定的文件
@@ -18,3 +22,13 @@ Bootstrap：Nested tabs are not supported.
 php artisan migrate:rollback
 php artisan migrate
 ```
+
+## twig里面字符串拼接
+```twig
+// 方法1：
+{{ "Hello " ~ name ~ "!" }}
+// 方法2：
+{{ "foo #{bar} baz" }}
+{{ "foo #{1 + 2} baz" }}
+```
+
