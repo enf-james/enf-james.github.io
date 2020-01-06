@@ -29,4 +29,8 @@ php artisan migrate
  "foo #{bar} baz" 
  "foo #{1 + 2} baz" 
 ```
+## vee-validate
 
+`data-vv-name` the name or data-vv-name attribute contains a string that is used as input to generate error messages
+
+`data-vv-as`  it outputs an error using the fields name or data-vv-as
