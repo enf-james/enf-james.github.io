@@ -28,7 +28,7 @@
 composer install
 ```
 >The [install](https://getcomposer.org/doc/03-cli.md#install-i) command reads the composer.json file from the current directory, resolves the dependencies, and installs them into vendor.
-
+>
 >If there is a composer.lock file in the current directory, it will use the exact versions from there instead of resolving them. This ensures that everyone using the library will get the same versions of the dependencies.
-
+>
 >If there is no composer.lock file, Composer will create one after dependency resolution.
