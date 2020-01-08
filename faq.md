@@ -15,6 +15,20 @@
 >Trying to use values of type null, bool, int, float or resource as an array (such as $null["key"]) will now generate a notice.
 
 ## composer管理的库
-以[PHPExcel](https://github.com/PHPOffice/PHPExcel)为例：
+[PHPExcel](https://github.com/PHPOffice/PHPExcel)：
 > The project has not be maintained for years and must not be used anymore. **All users must migrate** to its direct successor [PhpSpreadsheet](https://github.com/PHPOffice/PhpSpreadsheet), or another alternative.
 
+[symfony/symfony](https://packagist.org/packages/symfony/symfony)：
+
+最新版本5.1， 安装版本2.8
+
+## .gitignore
+把vendor添加到.gitignore。
+```shell
+composer install
+```
+>The [install](https://getcomposer.org/doc/03-cli.md#install-i) command reads the composer.json file from the current directory, resolves the dependencies, and installs them into vendor.
+
+>If there is a composer.lock file in the current directory, it will use the exact versions from there instead of resolving them. This ensures that everyone using the library will get the same versions of the dependencies.
+
+>If there is no composer.lock file, Composer will create one after dependency resolution.
