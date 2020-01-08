@@ -1,5 +1,5 @@
 PHP IntelliSense和PHP Intelephense禁用一个
 
-symbol duplicate
+标题栏显示完整路径
 
-search symbol. full path
+使用git-bash
