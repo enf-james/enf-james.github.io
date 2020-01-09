@@ -32,3 +32,17 @@ composer install
 >If there is a composer.lock file in the current directory, it will use the exact versions from there instead of resolving them. This ensures that everyone using the library will get the same versions of the dependencies.
 >
 >If there is no composer.lock file, Composer will create one after dependency resolution.
+
+
+## laravel model
+```php
+$model->$field = $value;
+
+$model->attributes[$field] = $value;
+
+$model->setAttribute($field, $value);
+
+$model->fill([$field => $value]);
+
+// 这4种方法有什么不一样？会不会调用Mutator方法 $model->setFooAttribute()
+```
