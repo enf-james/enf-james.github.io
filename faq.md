@@ -50,4 +50,4 @@ $model->fill([$field => $value]);
 ## laravel model
 Model::where(...)->get()
 
-怎样让查询结果不带appends和relation?
+怎样让查询结果不带appends和relation? 又要能用到从BaseModel继承的方法。
