@@ -46,3 +46,8 @@ $model->fill([$field => $value]);
 
 // 这4种方法有什么不一样？会不会调用Mutator方法 $model->setFooAttribute()
 ```
+
+## laravel model
+Model::where(...)->get()
+
+怎样让查询结果不带appends和relation?
