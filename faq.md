@@ -51,3 +51,6 @@ $model->fill([$field => $value]);
 Model::where(...)->get()
 
 怎样让查询结果不带appends和relation? 又要能用到从BaseModel继承的方法。
+
+## 404页面
+不要跳转

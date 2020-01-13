@@ -49,3 +49,6 @@ php artisan migrate
 查看vue版本：F12，`Vue.version`
 
 slot、scope、v-slot、slot-scope, [文档](https://vuejs.org/v2/api/#slot-deprecated)
+
+## css
+css`min-width`对table th, td元素无效，可嵌套div或span, 对div或span应用样式。
