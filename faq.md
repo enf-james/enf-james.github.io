@@ -5,6 +5,8 @@
 1. miration文件
 1. docs文档
 
+我觉得应该把文档独立出来，代码里只能写少量注释，文档集中起来好查找，也可以附上demo, 还有不只是IT看的文档。
+
 ## PHP7.4出现问题
 首页报错：
 > Notice: Trying to access array offset on value of type null in Route... (which is being imported from ".../routing_....yml").
