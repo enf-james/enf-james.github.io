@@ -74,3 +74,6 @@ select options内容不变的话，用twig的变量和for循环，不用vue的�
 macro不要用过多的if...else..., 保持简单，增加几个macro。
 
 例如select用一个macro, input用一个macro。
+
+## 网页布局
+满屏高度， 内容不够的时候，footer也要保持在底部。
