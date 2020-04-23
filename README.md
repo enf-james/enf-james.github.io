@@ -52,3 +52,7 @@ slot、scope、v-slot、slot-scope, [文档](https://vuejs.org/v2/api/#slot-depr
 
 ## css
 css`min-width`对table th, td元素无效，可嵌套div或span, 对div或span应用样式。
+
+## log
+grep -n "# Query_time:" /e/download/slow.log | awk '/a/ {print $1 "\t" $3}' | sort -k 2 -r -n | head -n 10
+sed -n '2695370,2695380 p' /e/download/slow.log
