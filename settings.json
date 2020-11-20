@@ -1,0 +1,22 @@
+{
+    "window.title": "${dirty}${activeEditorLong}${separator}${rootName}${separator}${appName}",
+    "editor.fontSize": 20,
+    "emmet.preferences": {
+        "filter.commentAfter": "<!-- /[#ID][.CLASS] -->"
+    },
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    "editor.renderWhitespace": "trailing",
+    "outline.showVariables": false,
+    "files.eol": "\n",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "files.trimTrailingWhitespace": true,
+    "git.autofetch": true,
+    "editor.formatOnSaveMode": "modifications",
+    "search.useIgnoreFiles": false,
+    "files.associations": {
+        "*.html": "twig"
+    },
+    "emmet.includeLanguages": {
+        "twig": "html"
+    }
+}
