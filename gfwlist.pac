@@ -11,6 +11,7 @@
      ],
      [
          [
+             "example.com",
              "aftygh.gov.tw",
              "aide.gov.tw",
              "aliyun.com",
