@@ -3,7 +3,7 @@
  * GFWList Last-Modified: 2021-08-27 23:33:15
  */
 
- var proxy = 'SOCKS5 192.168.0.103:2341';
+ var proxy = 'SOCKS5 192.168.0.101:2341';
  var rules = [
      [
          [],
@@ -5896,9 +5896,9 @@
          ]
      ]
  ];
- 
+
  var lastRule = '';
- 
+
  function FindProxyForURL(url, host) {
      for (var i = 0; i < rules.length; i++) {
          ret = testHost(host, i);
@@ -5907,7 +5907,7 @@
      }
      return 'DIRECT';
  }
- 
+
  function testHost(host, index) {
      for (var i = 0; i < rules[index].length; i++) {
          for (var j = 0; j < rules[index][i].length; j++) {
@@ -5918,7 +5918,7 @@
      }
      lastRule = '';
  }
- 
+
  // REF: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/endsWith
  if (!String.prototype.endsWith) {
      String.prototype.endsWith = function(searchString, position) {
@@ -5931,4 +5931,4 @@
          return lastIndex !== -1 && lastIndex === position;
    };
  }
- 
+
